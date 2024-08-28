@@ -25,7 +25,7 @@ fun CharacterListItem(character: Character?, navController: NavController) {
             .padding(8.dp)
             .clickable {
                 navController.navigate(
-                    "detail_screen/${character?.id}"
+                    "character_detail_screen/${character?.id}"
                 )
             }
     ) {
